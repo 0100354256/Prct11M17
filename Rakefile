@@ -11,7 +11,3 @@ desc "Ejecutar con documentacion"
 task :doc do
   sh "rspec -I. spec/Prct11M17_spec.rb --format documentation"
 end
-
-task :build do
-  ruby "lib/Prct11M17.rb"
-end
